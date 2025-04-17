@@ -1,0 +1,75 @@
+@charset "UTF-8";
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  background-color: beige;
+  padding: 0 30px;
+  font-weight: bold;
+  font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+}
+
+p {
+  font-size: 16px;
+  color: #333;
+  width: 500px;
+  max-width: 100%;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.button {
+  position: relative;
+  border: 16px solid #c7924e;
+  border-radius: 12px;
+  background-color: #fff;
+  color: #333;
+  width: 500px;
+  height: 300px;
+  max-width: 100%;
+}
+.button img {
+  width: 80px;
+  height: 80px;
+  display: block;
+  margin: 0 auto;
+}
+
+.goma-dot {
+  position: absolute;
+  width: 5px;
+  height: 8px;
+  border-radius: 50%;
+  background: #333;
+  opacity: 0.8;
+  pointer-events: none;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.clear-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #c7924e;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  max-width: 100%;
+}
+
+.clear-button:hover {
+  background-color: #a97430;
+}
